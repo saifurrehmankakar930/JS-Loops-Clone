@@ -673,9 +673,9 @@ console.log(sumArray);
 //Ans
 
 
-const originalArray = [1, 2, 3, 4, 5];
-const reversedArray = [];
-for (let i = originalArray.length - 1; i >= 0; i--) {
-  reversedArray.push(originalArray[i]);
+const arr7 = [1, 2, 3, 4, 5];
+const reverse = [];
+for (let i = arr7.length - 1; i >= 0; i--) {
+  reverse.push(arr7[i]);
 }
-console.log("Reversed:", reversedArray);
+console.log("Reversed:", reverse);
